@@ -1,2 +1,2 @@
 # vscode_auto_file_template
-这个仓库是用来存放vscode配置文件模板的仓库
+这个仓库是用来存放vscode配置文件模板的一个仓库
