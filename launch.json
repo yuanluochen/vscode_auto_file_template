@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "cwd": "${workspaceRoot}",
+            "type": "cortex-debug",
+            "request": "launch",
+            "name": "stlink",
+            "servertype": "openocd",
+            "executable": "build\\Target 1\\eide.axf",//不知道为什么我的eide仅能生成.axf文件但可用
+            "runToEntryPoint": "main",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"  //从openocd文件中查找对应MCU的.cfg文件
+            ]
+        }
+    ]
+}
